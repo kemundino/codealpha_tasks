@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  h1{text-align: center;
+  width: 100%;
+  display: block;
+  font-style: italic;
+  font-size: 40px;
+  color: aqua;
+  }
+  .gallery-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #galleryImage {
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  
+  .nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
